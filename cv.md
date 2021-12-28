@@ -52,7 +52,7 @@ class Cat:
     * **code:**  https://github.com/13py/stepik_pr2_w1.git
     * **site on heroku:** https://stepikapp.herokuapp.com/
 ---
-#Education
+# Education
 * N. Tagil Pedagogical Academy - Faculty of Physics and Mathematics.
 
 ## Courses
@@ -64,6 +64,6 @@ class Cat:
 * Stepic - Kind, kind Python - a training course from Sergey Balakirev
 * Test Provider(ITDVN) - Python Starter 3.8
 
-#Languages
+# Languages
 * Russian
 * English (A1-A2)
