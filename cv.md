@@ -54,6 +54,8 @@ class Cat:
 ---
 #Education
 * N. Tagil Pedagogical Academy - Faculty of Physics and Mathematics.
+
+## Courses
 * Stepic Academy - Django from scratch in practice
 * Stepic - Introduction to Linux
 * Stepic - Python programming
