@@ -52,3 +52,16 @@ class Cat:
     * **code:**  https://github.com/13py/stepik_pr2_w1.git
     * **site on heroku:** https://stepikapp.herokuapp.com/
 ---
+#Education
+* N. Tagil Pedagogical Academy - Faculty of Physics and Mathematics.
+* Stepic Academy - Django from scratch in practice
+* Stepic - Introduction to Linux
+* Stepic - Python programming
+* Stepic - Python: Basics and application
+* Stepic - Web development for beginners: HTML and CSS
+* Stepic - Kind, kind Python - a training course from Sergey Balakirev
+* Test Provider(ITDVN) - Python Starter 3.8
+
+#Languages
+* Russian
+* English (A1-A2)
