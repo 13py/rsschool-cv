@@ -1,0 +1,58 @@
+body {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner {
+  margin: auto;
+  max-width: 900px;
+  box-shadow: 4px 21px 20px rgba(0, 0, 0, 0.2);
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: deepskyblue;
+  height: 50px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+nav ul a {
+  text-decoration: none;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contacts h1 {
+  color: dimgray;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  color: cadetblue;
+}
