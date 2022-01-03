@@ -1,1 +1,1 @@
-https://13py.github.io/rsschool-cv/cv
+https://13py.github.io/rsschool-cv/
