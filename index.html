@@ -1,77 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
     <div class="conteiner">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#contacts">Contacts</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#code">Code Examples</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#edu">Education</a></li>
-            <li><a href="#lang">Languages</a></li>
-          </ul>
-        </nav>
-
-        <div class="info">
-          <div class="photo">
-            <img
-              src="https://i2.wp.com/www.chessprogramming.net/wp-content/uploads/2015/05/python.png?fit=200%2C200&ssl=1"
-              alt="avatar"
-              width="240"
-            />
-          </div>
-          <div class="contacts" id="contacts">
-            <h1>
-              Art Py <br />
-              CV Python Peveloper
-            </h1>
-            <ul>
-              <li>Phone number: +7912000000</li>
-              <li>Telegram: @pythonist</li>
-              <li>Discord: @temka</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-      </header>
-
-      <main>
-        <section id="about">
-          <h2>About me</h2>
-          <p>I'am a businessman, but I want to become a full-stack developer</p>
-        </section>
-        <section id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>Python</li>
-            <li>Django</li>
-            <li>Bash</li>
-            <li>Git</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>PyCharm, VsCode, Atom, Vim</li>
-            <li>Linux (Debian based)</li>
-          </ul>
-        </section>
-        <section id="code">
-          <h2>Code Examples</h2>
-          <pre>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#code">Code Examples</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#lang">Languages</a></li>
+                </ul>
+            </nav>
+            <div class="info">
+                <div class="photo">
+                    <img src="https://i2.wp.com/www.chessprogramming.net/wp-content/uploads/2015/05/python.png?fit=200%2C200&ssl=1" alt="avatar" width="240">
+                </div>
+                <div class="contacts" id="contacts">
+                    <h1>
+                        Art Py <br> CV Python Peveloper
+                    </h1>
+                    <ul>
+                        <li>Phone number: +7912000000</li>
+                        <li>Telegram: @pythonist</li>
+                        <li>Discord: @temka</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About me</h2>
+                <p>I'am a businessman, but I want to become a full-stack developer</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>Bash</li>
+                    <li>Git</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PyCharm, VsCode, Atom, Vim</li>
+                    <li>Linux (Debian based)</li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code Examples</h2>
+                <pre>
             <code>          
 class Person:
     def __init__(self, name, surname):
@@ -81,102 +70,100 @@ class Person:
         self.__url = 14          
             </code>
           </pre>
-        </section>
-        <section id="projects">
-          <h2>Projects</h2>
-          <ol>
-            <li>
-              Web-site - Blog
-              <ul>
-                <li>Python, Django, Django ORM, Bootstrap</li>
-                <li>django-debug-toolbar, python-decouple</li>
-                <li>
-                  <a href="https://github.com/13py/blog.git">
-                    code on github
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              Web-site - Search for tours
-              <ul>
-                <li>Python, Django, Django ORM Bootstrap</li>
-                <li>flake8</li>
-                <li>
-                  <a href="https://github.com/13py/stepik_tours_finished.git"
-                    >code on github</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              Web-site - Directory with vacancies for Junior developers
-              <ul>
-                <li>Python, Django, Django ORM, Bootstrap, Gunicorn</li>
-                <li>flake8, pillow</li>
-                <li>
-                  <a href="https://github.com/13py/stepik_pr2_w1.git"
-                    >code on github</a
-                  >
-                </li>
-                <li>
-                  <a href="https://stepikapp.herokuapp.com/">web site</a>
-                </li>
-              </ul>
-            </li>
-          </ol>
-        </section>
-        <hr />
-        <section id="edu">
-          <h2>Education</h2>
-          <ul class="list-unstyled">
-            <li>
-              N. Tagil Pedagogical Academy - Faculty of Physics and Mathematics
-            </li>
-
-            <li>Stepic Academy - Django from scratch in practice</li>
-            <li>Stepic - Introduction to Linux</li>
-            <li>Stepic - Python programming</li>
-            <li>Stepic - Python: Basics and application</li>
-            <li>Stepic - Web development for beginners: HTML and CSS</li>
-            <li>
-              Stepic - Kind, kind Python - a training course from Sergey
-              Balakirev
-            </li>
-            <li>Test Provider(ITDVN) - Python Starter 3.8</li>
-          </ul>
-        </section>
-        <section id="lang">
-          <h2>Languages</h2>
-          <ul>
-            <li>Russian</li>
-            <li>English (A1-A2)</li>
-          </ul>
-        </section>
-        <hr />
-      </main>
-
-      <footer>
-        <div class="git">
-          <a href="https://github.com/13py">
-            <img
-              src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Logo-500x283.jpg"
-              alt="GitHub"
-              width="100"
-            />
-          </a>
-        </div>
-        <div class="year">2022</div>
-        <div class="rsschool">
-          <a href="https://rs.school/js/">
-            <img
-              src="https://rs.school/images/rs_school_js.svg"
-              alt="rsschool"
-              width="100"
-            />
-          </a>
-        </div>
-      </footer>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <ol>
+                    <li>
+                        Web-site - Blog
+                        <ul>
+                            <li>Python, Django, Django ORM, Bootstrap</li>
+                            <li>django-debug-toolbar, python-decouple</li>
+                            <li>
+                                <a href="https://github.com/13py/blog.git">
+                  code on github
+                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Web-site - Search for tours
+                        <ul>
+                            <li>Python, Django, Django ORM Bootstrap</li>
+                            <li>flake8</li>
+                            <li>
+                                <a href="https://github.com/13py/stepik_tours_finished.git">code on github</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Web-site - Directory with vacancies for Junior developers
+                        <ul>
+                            <li>Python, Django, Django ORM, Bootstrap, Gunicorn</li>
+                            <li>flake8, pillow</li>
+                            <li>
+                                <a href="https://github.com/13py/stepik_pr2_w1.git">code on github</a>
+                            </li>
+                            <li>
+                                <a href="https://stepikapp.herokuapp.com/">web site</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+            <hr>
+            <section id="edu">
+                <h2>Education</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        N. Tagil Pedagogical Academy - Faculty of Physics and Mathematics
+                    </li>
+                    <li>
+                        Stepic Academy - Django from scratch in practice
+                    </li>
+                    <li>
+                        Stepic - Introduction to Linux
+                    </li>
+                    <li>
+                        Stepic - Python programming
+                    </li>
+                    <li>
+                        Stepic - Python: Basics and application
+                    </li>
+                    <li>
+                        Stepic - Web development for beginners: HTML and CSS
+                    </li>
+                    <li>
+                        Stepic - Kind, kind Python - a training course from Sergey Balakirev
+                    </li>
+                    <li>
+                        Test Provider(ITDVN) - Python Starter 3.8
+                    </li>
+                </ul>
+            </section>
+            <section id="lang">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian</li>
+                    <li>English (A1-A2)</li>
+                </ul>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <div class="git">
+                <a href="https://github.com/13py">
+                    <img src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Logo-500x283.jpg" alt="GitHub" width="100">
+                </a>
+            </div>
+            <div class="year">2022</div>
+            <div class="rsschool">
+                <a href="https://rs.school/js/">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100">
+                </a>
+            </div>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>
